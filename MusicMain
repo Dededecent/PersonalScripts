@@ -1,0 +1,8 @@
+#! /bin/bash
+
+Song="Now Playing: $(cat /home/oli/Scripts/CurMusic)"
+if [[ "$(ps aux | grep -v grep | grep deadbeef)" != "" ]]; then
+	echo -e "$Song " 
+else
+	echo ""
+fi
