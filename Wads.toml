@@ -1,0 +1,76 @@
+
+#name, path, and type
+
+[[DOOM]]
+Name = "The Ultimate Doom"
+Path = "DOOM1.WAD"
+Type = "WAD"
+[[DOOM2]]
+Name = "Doom 2"
+Path = "DOOM2.WAD"
+Type = "WAD"
+[[HERETIC]]
+Name = "Heretic 1"
+Path = "HERETIC.WAD"
+Type = "WAD"
+[[HEXEN]]
+Name = "Hexen"
+Path = "HEXEN.WAD"
+Type = "WAD"
+[[PLUTONIA]]
+Name = "The Plutonia Experiment"
+Path = "PLUTONIA.WAD"
+Type = "WAD"
+[[TNT]]
+Name = "TNT Evilution"
+Path = "TNT.WAD"
+Type = "WAD"
+[[REELISM2]]
+Name = "reelism 2"
+Path = "reelism2_v1.23.pk3"
+Type = "PK3"
+Base = "DOOM2"
+# Available source
+
+[[DOOM]]
+CrispyDoom = true
+PrBoomPlus = true
+GZDoom = true
+CrsipyHexen = false
+CrispyHeretic = false
+[[DOOM2]]
+CrispyDoom = true
+PrBoomPlus = true
+GZDoom = true
+CrsipyHexen = false
+CrispyHeretic = false
+[[HERETIC]]
+CrispyDoom = false
+PrBoomPlus = false
+GZDoom = true
+CrsipyHexen = false
+CrispyHeretic = true
+[[HEXEN]]
+CrispyDoom = false
+PrBoomPlus = false
+GZDoom = true
+CrispyHexen = true
+CrispyHeretic = false
+[[PLUTONIA]]
+CrispyDoom = true
+PrBoomPlus = true
+GZDoom = true
+CrispyHexen = false
+CrispyHeretic = false
+[[TNT]]
+CrispyDoom = true
+PrBoomPlus = true
+GZDoom = true
+CrsipyHexen = false
+CrispyHeretic = false
+[[REELISM2]]
+CrispyDoom = false
+PrBoomPlus = false
+GZDoom = true
+CrsipyHexen = false
+CrispyHeretic = false
